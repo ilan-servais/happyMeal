@@ -23,9 +23,13 @@
                         // Boucle à travers les ingrédients et les ajoute à la liste
                         recipeHtml += '<ul>';
                         $.each(recipe.ingredients, function(i, ingredient) {
-                            recipeHtml += '<li>' + ingredient.nom + ' - ' + ingredient.quantite + '</li>';
-                        });
-                        recipeHtml += '</ul>';
+                            // Vérifier si la quantité est définie
+                            if (ingredient.quantite !== undefined) {
+                                recipeHtml += '<li>' + ingredient.nom + ' - ' + ingredient.quantite + '</li>';
+                            } else {
+                                recipeHtml += '<li>' + ingredient.nom + '</li>'; // Si la quantité est undefined, afficher juste le nom de l'ingrédient
+                            }
+                        });                        
 
                         recipeHtml += '<h4>Étapes de préparation:</h4>'; // Titre pour les étapes de préparation
 
