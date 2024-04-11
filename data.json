@@ -233,24 +233,32 @@
          ]
       },
       {
-         "nom":"Salade de fruits frais",
-         "categorie":"Dessert",
-         "temps_preparation":"20 minutes",
-         "ingredients":[
-            "Fruits variés (fraises, kiwis, oranges, raisins, etc.), coupés en morceaux",
-            "Jus d'orange ou de citron",
-            "Miel ou sirop d'érable (facultatif)",
-            "Feuilles de menthe fraîche pour garnir"
+         "nom": "Salade de fruits frais",
+         "categorie": "Dessert",
+         "temps_preparation": "20 minutes",
+         "ingredients": [
+           {
+             "nom": "Fruits variés (fraises, kiwis, oranges, raisins, etc.), coupés en morceaux"
+           },
+           {
+             "nom": "Jus d'orange ou de citron"
+           },
+           {
+             "nom": "Miel ou sirop d'érable (facultatif)"
+           },
+           {
+             "nom": "Feuilles de menthe fraîche pour garnir"
+           }
          ],
-         "etapes":[
-            "Coupez tous les fruits en morceaux de taille similaire et placez-les dans un grand bol.",
-            "Arrosez les fruits avec un peu de jus d'orange ou de citron pour les empêcher de brunir et pour ajouter de la fraîcheur.",
-            "Si désiré, ajoutez un peu de miel ou de sirop d'érable pour sucrer légèrement les fruits.",
-            "Mélangez délicatement les fruits pour bien les enrober de jus.",
-            "Réfrigérez la salade de fruits pendant au moins 30 minutes avant de servir pour permettre aux saveurs de se mélanger.",
-            "Au moment de servir, garnissez la salade de fruits frais de feuilles de menthe fraîche."
+         "etapes": [
+           "Coupez tous les fruits en morceaux de taille similaire et placez-les dans un grand bol.",
+           "Arrosez les fruits avec un peu de jus d'orange ou de citron pour les empêcher de brunir et pour ajouter de la fraîcheur.",
+           "Si désiré, ajoutez un peu de miel ou de sirop d'érable pour sucrer légèrement les fruits.",
+           "Mélangez délicatement les fruits pour bien les enrober de jus.",
+           "Réfrigérez la salade de fruits pendant au moins 30 minutes avant de servir pour permettre aux saveurs de se mélanger.",
+           "Au moment de servir, garnissez la salade de fruits frais de feuilles de menthe fraîche."
          ]
-      },
+       },
       {
          "nom":"Ratatouille provençale",
          "categorie":"Plat principal",
