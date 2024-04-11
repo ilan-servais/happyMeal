@@ -1,0 +1,43 @@
+        /* Vos styles CSS ici */
+        .pagination {
+          display: block;
+          width: 75%;
+          margin: 1em auto;
+          text-align: center;
+      }
+
+      .pagination-button {
+          display: inline-block;
+          padding: 5px 10px;
+          border: 1px solid #e0e0e0;
+          background-color: #eee;
+          color: #333;
+          cursor: pointer;
+          transition: background 0.1s, color 0.1s;
+      }
+
+      .pagination-button:hover {
+          background-color: #ddd;
+          color: #3366cc;
+      }
+
+      .pagination-button.active {
+          background-color: #bbb;
+          border-color: #bbb;
+          color: #3366cc;
+      }
+
+      .heading {
+          text-align: center;
+          max-width: 500px;
+          margin: 20px auto;
+      }
+
+      .article-loop {
+          display: block;
+          width: 75%;
+          padding: 1em 2em;
+          margin: 1em auto;
+          border: 1px solid #ddd;
+          background-color: #ededed;
+      }
